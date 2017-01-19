@@ -5,7 +5,7 @@ from random import randint
 import sys
 
 
-
+'''
 def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     pop_from=0
     if reverse==True:pop_from=-1
@@ -13,7 +13,8 @@ def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
         for x in range(4):
             if y in r and x in c:f[y][x]=liste.pop(pop_from)
     return f
-
+'''
+#comments
 def emp(f):
     poses=[]
     for y in range(4):
